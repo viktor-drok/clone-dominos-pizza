@@ -1,0 +1,152 @@
+:root {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  height: 650px;
+
+  /* padding: 0 5px; */
+  border: 1px solid #e4e4e4;
+  border-radius: 15px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 4px 28px;
+  }
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cardLink {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000;
+  flex-grow: 1;
+}
+
+.card a h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardDesc {
+  flex-grow: 1;
+}
+
+.cardTitle {
+  text-align: center;
+  font-size: 24px;
+}
+
+.cardDesc {
+  font-size: 14px;
+  text-align: center;
+}
+
+.changeIngradients,
+.pizzaSizeInner div,
+.pizzaSize > div,
+.dough > div,
+.bort > div {
+  border-radius: 20px;
+  border: 1px solid #8c8c8c;
+  padding: 7px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.changeIngradients {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.pizzaSize {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.pizzaSize :last-child {
+  width: 100%
+}
+
+.dough,
+.bort {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+
+.dough > div,
+.bort > div {
+  flex-grow: 1;
+}
+
+.addToCart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.cartButton {
+  display: flex;
+  gap: 10px;
+  padding: 7px 60px;
+  font-size: 16px;
+}
+
+.cartButton span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 33px;
+
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #4e1718;
+  }
+}
+
+.cartButtonActive {
+  background-color: #4f4f4f;
+
+  &:hover {
+    background-color: #4f4f4f;
+  }
+}
+
+.price {
+  font-size: 24px;
+}
+
+.active {
+  background-color: #4f4f4f;
+  color: #fff;
+}

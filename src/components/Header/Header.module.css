@@ -1,0 +1,25 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #000;
+  height: 80px;
+}
+
+.logo {
+  padding-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 60px;
+  flex-grow: 1;
+  margin-left: 60px;
+}

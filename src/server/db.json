@@ -1,0 +1,188 @@
+[
+	{
+		"id": "p1",
+		"title": "Піца Шинка та гриби",
+		"description": "Моцарела, Соус Domino's, Гриби, Шинка",
+		"imgURL": "img/pizza/vetchina-i-griby.jpeg"
+	},
+	{
+		"id": "p2",
+		"title": "Піца Мангеттен",
+		"description": "Моцарела, Пепероні, Соус Альфредо, Гриби (подвійна порція грибів)",
+		"imgURL": "img/pizza/manhatten-slice-collageweb-min.jpeg"
+	},
+	{
+		"id": "p3",
+		"title": "Піца Техас",
+		"description": "Соус Барбекю, Моцарела, Цибуля, Ковбаски баварські, Кукурудза, Гриби",
+		"imgURL": "img/pizza/tekhas-300dpi-min.webp"
+	},
+	{
+		"id": "p4",
+		"title": "Піца Пепероні з томатами",
+		"description": "Соус Барбекю, Моцарела, Помідори, Пепероні",
+		"imgURL": "img/pizza/pepperony-y-tomaty-300dpi.jpeg"
+	},
+	{
+		"id": "p5",
+		"title": "Піца Чікен кебаб",
+		"description": "Курка, Моцарела, Огірки мариновані, Соус Domino's, Цибуля, Гриби Поливка (соус Burger)",
+		"imgURL": "img/pizza/chiken-kebab.webp"
+	},
+	{
+		"id": "p6",
+		"title": "Піца Гриль Мікс",
+		"description": "Болгарський перець, Курка, Соус Барбекю, Моцарела, Цибуля, Фрикадельки, Бекон",
+		"imgURL": "img/pizza/grill-slice-collageweb-min.webp"
+	},
+	{
+		"id": "p7",
+		"title": "Піца Маргарита",
+		"description": "Моцарела(x2), Соус Domino's (подвійна порція моцарели)",
+		"imgURL": "img/pizza/marharyta-300dpi-min.webp"
+	},
+	{
+		"id": "p8",
+		"title": "Піца Тоні Пепероні",
+		"description": "Моцарела, Пепероні, Соус Domino's",
+		"imgURL": "img/pizza/pepperony-300dpi-min.webp"
+	},
+	{
+		"id": "p9",
+		"title": "Піца Барбекю",
+		"description": "Курка, Соус Барбекю, Моцарела, Цибуля, Гриби, Бекон",
+		"imgURL": "img/pizza/bbq.webp"
+	},
+	{
+		"id": "p10",
+		"title": "Піца Гавайська",
+		"description": "Курка, Моцарела, Соус Domino's, Ананас",
+		"imgURL": "img/pizza/havaiska-300dpi-min.webp"
+	},
+	{
+		"id": "p11",
+		"title": "Піца Курка-Дорблю",
+		"description": "Курка, Моцарела, Соус Альфредо, Бергадер Блю",
+		"imgURL": "img/pizza/pytstsa-kurytsa-holuboisyr-kusochek.webp"
+	},
+	{
+		"id": "p12",
+		"title": "Піца Карбонара",
+		"description": "Моцарела, Соус Альфредо, Цибуля, Гриби, Шинка, Бекон",
+		"imgURL": "img/pizza/karbonara-300dpi.webp"
+	},
+	{
+		"id": "p13",
+		"title": "Піца Кантрі",
+		"description": "Моцарела, Огірки мариновані, Цибуля, Соус Часниковий, Гриби, Шинка, Бекон",
+		"imgURL": "img/pizza/kantry-300dpi-min.webp"
+	},
+	{
+		"id": "p14",
+		"title": "Піца з телятиною",
+		"description": "Соус Барбекю, Моцарела, Помідори, Телятина",
+		"imgURL": "img/pizza/beef-pizzapieces.webp"
+	},
+	{
+		"id": "p15",
+		"title": "Піца Чорізо",
+		"description": "Болгарський перець, Моцарела, Соус Domino's, Чорізо",
+		"imgURL": "img/pizza/chorizo-pizzapieces.webp"
+	},
+	{
+		"id": "p16",
+		"title": "Піца Джамайка Бомбастик",
+		"description": "Болгарський перець, Курка, Моцарела, Соус Domino's, Халапеньо, Кукурудза, Гриби, Ананас",
+		"imgURL": "img/pizza/jb-c2rtch-fin-min.webp"
+	},
+	{
+		"id": "p17",
+		"title": "Піца Прованс",
+		"description": "Моцарела, Помідори, Пепероні, Соус Альфредо, Бергадер Блю, Шинка",
+		"imgURL": "img/pizza/provans-300dpi-min.webp"
+	},
+	{
+		"id": "p18",
+		"title": "Піца Барбекю Делюкс",
+		"description": "Болгарський перець, Соус Барбекю, Пармезан, Моцарела, Пепероні, Цибуля, Фрикадельки, Гриби",
+		"imgURL": "img/pizza/bbq-delux.webp"
+	},
+	{
+		"id": "p19",
+		"title": "Піца Біф & Чіпс",
+		"description": "Соус Барбекю, Моцарела, Цибуля Картопля фрі, Яловичина, Соус бургер",
+		"imgURL": "img/pizza/product-image-pizza-beef-chips-960x619pix.webp"
+	},
+	{
+		"id": "p20",
+		"title": "Піца з індичкою",
+		"description": "Моцарела, Соус Альфредо, Індичка Крем-сир Філадельфія",
+		"imgURL": "img/pizza/turkey-pizzapieces.webp"
+	},
+	{
+		"id": "p21",
+		"title": "Піца Тоскана",
+		"description": "Курка, Моцарела, Помідори чері, Соус Альфредо, Фета, Шпинат",
+		"imgURL": "img/pizza/toskana-960.webp"
+	},
+	{
+		"id": "p22",
+		"title": "Піца Грецька",
+		"description": "Тунець, Моцарела, Оливки, Фета, Соус Часниковий",
+		"imgURL": "img/pizza/d830e077-bcd6-4c65-8069-d3481664a7f2.webp"
+	},
+	{
+		"id": "p23",
+		"title": "Піца Мюнхенська делюкс",
+		"description": "Гірчиця, Соус Барбекю, Моцарела, Сосиски білі, Помідори, Ковбаски баварські, Шинка",
+		"imgURL": "img/pizza/spaisy-300dpi-min.webp"
+	},
+	{
+		"id": "p24",
+		"title": "Піца Спайсі",
+		"description": "Моцарела, Помідори, Пепероні, Соус Domino's, Халапеньо, Бекон",
+		"imgURL": "img/pizza/miunkhenskaia-delux-300dpi-min.webp"
+	},
+	{
+		"id": "p25",
+		"title": "Піца Діабло",
+		"description": "Пепероні, Моцарела, Помідори, Халапеньо, Соус Domino's, Чорізо",
+		"imgURL": "img/pizza/diabolo-pizzapieces.webp"
+	},
+	{
+		"id": "p26",
+		"title": "Піца Шпинат і Фета",
+		"description": "Болгарський перець, Моцарела, Помідори, Соус Альфредо, Оливки, Фета, Гриби, Шпинат",
+		"imgURL": "img/pizza/shpynatfeta-300dpi-min.webp"
+	},
+	{
+		"id": "p27",
+		"title": "Піца Роял Чізбургер",
+		"description": "Соус Барбекю, Моцарела, Цибуля Подвійна порція стейк-м’яса (яловичина), Поливка (соус Burger)",
+		"imgURL": "img/pizza/royal-slice-retoch-min-min.webp"
+	},
+	{
+		"id": "p28",
+		"title": "Піца П'ять Сирів",
+		"description": "Соус Барбекю, Моцарела, Цибуля Подвійна порція стейк-м’яса (яловичина), Поливка (соус Burger)",
+		"imgURL": "img/pizza/piat-syrov-300dpi-min.webp"
+	},
+	{
+		"id": "p29",
+		"title": "Піца Мітца",
+		"description": "Пармезан, Моцарела, Пепероні, Соус Domino's, Ковбаски баварські, Шинка, Бекон",
+		"imgURL": "img/pizza/mytstsa-300dpi-min.webp"
+	},
+	{
+		"id": "p30",
+		"title": "Піца Екстраваганза",
+		"description": "Пепероні, Фрикадельки, Шинка, Моцарела, Болгарський перець, Цибуля, Оливки, Гриби, Соус Domino's",
+		"imgURL": "img/pizza/extravaganzza-slice1-min.webp"
+	},
+	{
+		"id": "p31",
+		"title": "Піца Лосось Філадельфія",
+		"description": "Моцарела, Соус Альфредо Крем-сир Філадельфія, Лосось",
+		"imgURL": "img/pizza/salmonphill-slicere-made-web-min-min.webp"
+	}
+]

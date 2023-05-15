@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  border: 2px solid #bababa;
+  border-radius: 32px;
+  box-sizing: border-box;
+  align-items: center;
+  width: auto;
+}
+
+.qtyInCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #322f2f;
+  border-radius: 50px;
+  background-color: #4f4f4f;
+  width: 49px;
+  height: 49px;
+  margin-right: 2px;
+  padding: 3px;
+  cursor: pointer;
+
+  & > span {
+    color: #fff;
+    font-size: 14px;
+  }
+}
+
+.totalPrice {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.button {
+  height: 49px;
+}
+
+.svg path {
+  fill: #bababa
+}
