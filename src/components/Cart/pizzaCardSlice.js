@@ -19,7 +19,9 @@ const pizzaCartSlice = createSlice({
         state.pizzas.push({
           ...action.payload,
           count: 1,
-          size: "Стандарт"
+          size: "",
+          dough: "",
+          bort: ""
         });
       }
       state.totalPrice = state.pizzas.reduce((sum, pizza) => {
@@ -44,8 +46,20 @@ const pizzaCartSlice = createSlice({
         findPizza.size = action.payload.size;
       }
     },
+    selectDough(state, action) {
+      const findPizza = state.pizzas.find(pizza => pizza.id === action.payload.id);
+      if (findPizza) {
+        findPizza.dough = action.payload.dough;
+      }
+    },
+    selectBort(state, action) {
+      const findPizza = state.pizzas.find(pizza => pizza.id === action.payload.id);
+      if (findPizza) {
+        findPizza.bort = action.payload.bort;
+      }
+    },
   }
 });
 
-export const { addToCart, removeFromCart, selectSize } = pizzaCartSlice.actions;
+export const { addToCart, removeFromCart, selectSize, selectDough, selectBort } = pizzaCartSlice.actions;
 export const pizzaCartReducer = pizzaCartSlice.reducer;

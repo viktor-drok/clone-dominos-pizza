@@ -5,20 +5,15 @@ import { Link } from "react-router-dom";
 import CustomButton from "../UI/CustomButton";
 import { ReactComponent as CartImg } from "../../img/svg/cart.svg";
 import pizzaData from "../../fetch/getData";
-import { addToCart, removeFromCart, selectSize } from "../Cart/pizzaCardSlice";
+import { addToCart, removeFromCart } from "../Cart/pizzaCardSlice";
 import css from "./PizzaCard.module.css";
+import Dough from "../Dough/Dough";
+import Bort from "../Bort/Bort";
+import PizzaSize from "../PizzaSize/PizzaSize";
 
 const PizzaCard = () => {
 	const dispatch = useDispatch();
 	const { pizza, pizzaCart } = useSelector(state => state);
-
-	// const findItem = pizzaCart.find(item => item.size === size);
-
-	const pizzaSize = ["Стандарт", "Велика", "Екстравелика", "Найбільша"];
-
-	const changeSize = obj => {
-		dispatch(selectSize(obj));
-	};
 
 	useEffect(() => {
 		dispatch(pizzaData());
@@ -40,27 +35,9 @@ const PizzaCard = () => {
 							<p className={css.cardDesc}>{description}</p>
 						</Link>
 						<div className={css.changeIngradients}>Змінити інградієнти</div>
-						<div className={css.pizzaSize}>
-							{pizzaSize.map((size, index) => (
-								<div
-									className={pizzaCart.pizzas.find(item => item.id === id && item.size === size) ? css.active : ""}
-									onClick={() => changeSize({ size, id })}
-									key={index}
-								>
-									{size}
-								</div>
-							))}
-						</div>
-						<div className={css.dough}>
-							<span>Тісто</span>
-							<div className={css.active}>Пухке</div>
-							<div>Тонке</div>
-						</div>
-						<div className={css.bort}>
-							<span>Борт</span>
-							<div>Філадельфія</div>
-							<div>Борт Хот-Дог</div>
-						</div>
+						<PizzaSize id={id} />
+						<Dough id={id} />
+						<Bort id={id} />
 						<div className={css.addToCart}>
 							<div className={css.price}>{price} грн</div>
 							{pizzaCart.pizzas.some(item => item.id === id) ? (

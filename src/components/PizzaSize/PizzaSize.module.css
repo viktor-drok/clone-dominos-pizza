@@ -1,0 +1,25 @@
+.pizzaSize > div {
+  border-radius: 20px;
+  border: 1px solid #8c8c8c;
+  padding: 7px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pizzaSize {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.pizzaSize :last-child {
+  width: 100%
+}
+
+.active {
+  background-color: #4f4f4f;
+  color: #fff;
+}

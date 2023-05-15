@@ -1,0 +1,23 @@
+.dough {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 5px;
+}
+
+.dough > div {
+  border-radius: 20px;
+  border: 1px solid #8c8c8c;
+  padding: 7px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dough > div {
+  flex-grow: 1;
+}
+
+.active {
+  background-color: #4f4f4f;
+  color: #fff;
+}
