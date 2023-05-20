@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import CustomButton from "../UI/CustomButton";
 import { ReactComponent as CartImg } from "../../img/svg/cart.svg";
-import pizzaData from "../../fetch/getData";
+import { pizzaData } from "../../fetch/getData";
 import { addToCart, removeFromCart } from "../Cart/pizzaCardSlice";
 import css from "./PizzaCard.module.css";
 import Dough from "../Dough/Dough";
@@ -16,7 +16,7 @@ const PizzaCard = () => {
 	const { pizza, pizzaCart } = useSelector(state => state);
 
 	useEffect(() => {
-		dispatch(pizzaData());
+		dispatch(pizzaData(""));
 	}, [dispatch]);
 
 	const onClickAdd = obj => {
@@ -25,7 +25,7 @@ const PizzaCard = () => {
 
 	return (
 		<div className={css.container}>
-			{pizza.map(item => {
+			{pizza.pizza.map(item => {
 				const { id, description, title, imgURL, price } = item;
 				return (
 					<div key={id} className={css.card}>

@@ -6,6 +6,9 @@ import { useDispatch } from "react-redux";
 
 import CustomButton from "../UI/CustomButton";
 import { addToCart, removeFromCart } from "../Cart/pizzaCardSlice";
+import PizzaSize from "../PizzaSize/PizzaSize";
+import Dough from "../Dough/Dough";
+import Bort from "../Bort/Bort";
 
 const PizzaSelect = () => {
 	const dispatch = useDispatch();
@@ -40,6 +43,10 @@ const PizzaSelect = () => {
 		<div>
 			<img width="300" height="300" src={`/${pizza.imgURL}`} alt="" />
 			<h1>{pizza.title}</h1>
+			<p>{pizza.description}</p>
+			<PizzaSize />
+			<Dough />
+			<Bort />
 			<h4>Price: {pizza.price}</h4>
 
 			{pizzaCart.pizzas.some(item => item.id === id) ? (
@@ -53,6 +60,7 @@ const PizzaSelect = () => {
 					</span>
 
 					{pizzaCart.pizzas.find(item => item.id === id).count}
+
 					<span
 						onClick={() => {
 							onClickAdd({ id: pizza.id, title: pizza.title, price: pizza.price, imgURL: pizza.imgURL });

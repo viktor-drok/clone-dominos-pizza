@@ -1,21 +1,23 @@
 import { createSlice } from '@reduxjs/toolkit';
-import pizzaData from '../fetch/getData';
+import { fetchWithParams, pizzaData } from '../fetch/getData';
 
-const initialState = [];
+const initialState = {
+  pizza: [],
+};
 
 const pizzaSlice = createSlice({
   name: 'pizza',
   initialState,
+  reducers: {
+  },
   extraReducers: (builder) => {
     builder
       .addCase(pizzaData.fulfilled, (state, action) => {
-        if (state.length === 0) {
-          return state.concat(action.payload);
-        }
+        console.log(action);
+        state.pizza = action.payload;
       });
-
   }
 });
 
-// export const { } = pizzaCardSlice.actions;
+// export const { } = pizzaSlice.actions;
 export const pizzaReducer = pizzaSlice.reducer;
