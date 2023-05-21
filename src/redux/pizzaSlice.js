@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchWithParams, pizzaData } from '../fetch/getData';
+import { pizzaData } from '../fetch/getData';
 
 const initialState = {
   pizza: [],
@@ -8,8 +8,7 @@ const initialState = {
 const pizzaSlice = createSlice({
   name: 'pizza',
   initialState,
-  reducers: {
-  },
+  reducers: {},
   extraReducers: (builder) => {
     builder
       .addCase(pizzaData.fulfilled, (state, action) => {

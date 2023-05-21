@@ -1,0 +1,12 @@
+.sort {
+  min-height: 50px;
+  min-width: 200px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.color {
+  color: red;
+}

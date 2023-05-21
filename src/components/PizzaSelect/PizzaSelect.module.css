@@ -1,0 +1,68 @@
+.pizzaSelect {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 100px;
+}
+
+.pizzaSelect img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.pizzaSelectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cartButtonBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.cartButton {
+  display: flex;
+  gap: 10px;
+  padding: 7px 60px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.cartButton span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 33px;
+
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #4e1718;
+  }
+}
+
+.cartButtonActive {
+  background-color: #4f4f4f;
+
+  &:hover {
+    background-color: #4f4f4f;
+  }
+}
+
+.active {
+  background-color: #4f4f4f;
+  color: #fff;
+}
