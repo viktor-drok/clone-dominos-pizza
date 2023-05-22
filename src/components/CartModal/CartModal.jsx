@@ -10,7 +10,7 @@ const CartModal = () => {
 			<ul className={css.cart}>
 				{cart.pizzas.map(pizza => (
 					<li key={pizza.id}>
-						<img src={pizza.imgURL} alt={pizza.title} />
+						<img src={process.env.PUBLIC_URL + pizza.imgURL} alt={pizza.title} />
 						<h1>{pizza.title}</h1>
 						<h4>Size: {pizza.size}</h4>
 						<div>
