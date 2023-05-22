@@ -30,7 +30,7 @@ const PizzaCard = () => {
 				return (
 					<div key={id} className={css.card}>
 						<Link to={id} className={css.cardLink}>
-							<img src={imgURL} alt="Pizza" />
+							<img src={process.env.PUBLIC_URL + imgURL} alt="Pizza" />
 							<h3 className={css.cardTitle}>{title}</h3>
 							<p className={css.cardDesc}>{description}</p>
 						</Link>
