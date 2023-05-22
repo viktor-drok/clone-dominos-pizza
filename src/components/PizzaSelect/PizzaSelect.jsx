@@ -44,7 +44,7 @@ const PizzaSelect = () => {
 	return (
 		<div>
 			<div className={css.pizzaSelect}>
-				<img width="300" height="300" src={`/${pizza.imgURL}`} alt="" />
+				<img width="300" height="300" src="./../../img/pizza/chiken-kebab.webp" alt="" />
 				<div className={css.pizzaSelectInfo}>
 					<h1>{pizza.title}</h1>
 					<p>{pizza.description}</p>
