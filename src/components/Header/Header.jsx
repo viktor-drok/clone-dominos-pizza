@@ -14,26 +14,26 @@ const Header = () => {
 			</div>
 			<nav>
 				<div>
-					<NavLink to="/clone-dominos-pizza/sets">Набори</NavLink>
+					<NavLink to={process.env.PUBLIC_URL + "/sets"}>Набори</NavLink>
 				</div>
 				<div>
-					<NavLink to="/clone-dominos-pizza/promotions">Акції</NavLink>
+					<NavLink to={process.env.PUBLIC_URL + "/promotions"}>Акції</NavLink>
 				</div>
 				<div>
-					<NavLink to="/clone-dominos-pizza/pizza">Піца</NavLink>
+					<NavLink to={process.env.PUBLIC_URL + "/pizza"}>Піца</NavLink>
 				</div>
 				<div>
-					<NavLink to="/clone-dominos-pizza/drinks">Напої</NavLink>
+					<NavLink to={process.env.PUBLIC_URL + "/drinks"}>Напої</NavLink>
 				</div>
 				<div>
-					<NavLink to="/clone-dominos-pizza/sides">Сайди</NavLink>
+					<NavLink to={process.env.PUBLIC_URL + "/sides"}>Сайди</NavLink>
 				</div>
 				<div>
-					<NavLink to="/clone-dominos-pizza/desserts">Десерти</NavLink>
+					<NavLink to={process.env.PUBLIC_URL + "/desserts"}>Десерти</NavLink>
 				</div>
 			</nav>
 			<div>
-				<Link to="/clone-dominos-pizza/cart">
+				<Link to={process.env.PUBLIC_URL + "/cart"}>
 					<Cart />
 				</Link>
 			</div>

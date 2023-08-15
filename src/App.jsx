@@ -12,7 +12,7 @@ import PizzaSelect from "./components/PizzaSelect/PizzaSelect";
 function App() {
 	return (
 		<Routes>
-			<Route path="/clone-dominos-pizza" element={<Layout />}>
+			<Route path={process.env.PUBLIC_URL} element={<Layout />}>
 				<Route index element={<Pizza />} />
 				<Route path="sets" element={<Sets />} />
 				<Route path="promotions" element={<Promotions />} />

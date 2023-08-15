@@ -30,7 +30,7 @@ const PizzaSelect = () => {
 				return setPizza(res.data);
 			} catch (error) {
 				alert(error.message);
-				navigate("/pizza");
+				navigate(process.env.PUBLIC_URL + "/pizza");
 			}
 		};
 
