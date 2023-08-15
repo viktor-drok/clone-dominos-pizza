@@ -14,26 +14,26 @@ const Header = () => {
 			</div>
 			<nav>
 				<div>
-					<NavLink to="clone-dominos-pizza/sets">Набори</NavLink>
+					<NavLink to="/clone-dominos-pizza/sets">Набори</NavLink>
 				</div>
 				<div>
-					<NavLink to="clone-dominos-pizza/promotions">Акції</NavLink>
+					<NavLink to="/clone-dominos-pizza/promotions">Акції</NavLink>
 				</div>
 				<div>
-					<NavLink to="clone-dominos-pizza/pizza">Піца</NavLink>
+					<NavLink to="/clone-dominos-pizza/pizza">Піца</NavLink>
 				</div>
 				<div>
-					<NavLink to="clone-dominos-pizza/drinks">Напої</NavLink>
+					<NavLink to="/clone-dominos-pizza/drinks">Напої</NavLink>
 				</div>
 				<div>
-					<NavLink to="clone-dominos-pizza/sides">Сайди</NavLink>
+					<NavLink to="/clone-dominos-pizza/sides">Сайди</NavLink>
 				</div>
 				<div>
-					<NavLink to="clone-dominos-pizza/desserts">Десерти</NavLink>
+					<NavLink to="/clone-dominos-pizza/desserts">Десерти</NavLink>
 				</div>
 			</nav>
 			<div>
-				<Link to="clone-dominos-pizza/cart">
+				<Link to="/clone-dominos-pizza/cart">
 					<Cart />
 				</Link>
 			</div>
